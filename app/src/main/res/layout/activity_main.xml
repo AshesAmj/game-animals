@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context="com.example.qinjunhong.game.MainActivity">
+
+    <Button
+        android:id="@+id/buttonexit"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:text="E X I T"
+        android:background="@drawable/button_selector"
+        android:layout_marginBottom="113dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="btnexit"/>
+
+    <Button
+        android:id="@+id/buttonplay"
+        android:layout_width="143dp"
+        android:layout_height="59dp"
+        android:text="P L A Y"
+        android:background="@drawable/button_selector"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/buttonexit"
+        android:layout_alignLeft="@+id/buttonexit"
+        android:layout_alignStart="@+id/buttonexit"
+        android:onClick="btnplay"/>
+</RelativeLayout>
